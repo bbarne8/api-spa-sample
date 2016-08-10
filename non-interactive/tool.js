@@ -13,7 +13,7 @@ var authData = {
 // First, authenticate this client and get an access_token
 // This could be cached
 request
-  .post('https://alex-api-sample.auth0.com/oauth/token')
+  .post('https://YOURTENANT.auth0.com/oauth/token')
   .send(authData)
   .end(function(err, res) {
     var token = res.body.access_token
