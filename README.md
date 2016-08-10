@@ -11,7 +11,8 @@ This simulates a daemon, cron-job, or other utility. It can be ran from:
 `node non-interactive/tool.js`
 
 ### SPA
-This is a Single Page App that allows end users to log in and call an `/api/users` endpoint in the API
+This is a Single Page App that allows end users to log in and call an `/api/users` endpoint in the API.
+SPA can be accessed at `http://localhost:4000/index.html`
 
 
 ### Setup in Auth0
