@@ -19,6 +19,7 @@ SPA can be accessed at `http://localhost:4000/index.html`
 1. Create API
   - Set the Identifier to `my-api`
 2. Create SPA Client
+  - Specify callback url (`http://localhost:4000/index.html`)
 3. Create Non-Interactive Client
   - Authorize it for the API
-  - Specify callback url
+
